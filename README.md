@@ -1,2 +1,2 @@
-# computaci-n-gr-fica
+# computación-gráfica
 algoritmos pygame
