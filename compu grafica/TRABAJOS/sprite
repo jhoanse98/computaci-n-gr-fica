@@ -1,0 +1,33 @@
+import pygame
+import math
+
+ANCHO=640
+ALTO=480
+ORIGENX=320
+ORIGENY=240
+D=[1,1]
+
+
+
+
+
+if __name__=='__main__':
+    pygame.init()
+    fin=False
+    c=0
+    verticesorigen=[[0,0]]
+    cartesiana=[]
+    apantalla=[[320,240]]
+    enpantalla=[]
+    escalar=[1,1]
+    aumentoescalar=[]
+    rotativa=[]
+    vectiorigen2=[]
+    pantalla=pygame.display.set_mode([ANCHO,ALTO])
+    pygame.draw.line(pantalla, [255,255,0], [320,0], [320,480])
+    pygame.draw.line(pantalla, [255,255,0], [0,240], [640,240])
+    pygame.display.flip()
+    while not fin:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                fin=True
