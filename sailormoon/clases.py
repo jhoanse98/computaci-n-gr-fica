@@ -2,6 +2,29 @@ import pygame
 import random
 import math
 
+"""jksdlfjlsdkjflasjdflkajsdlfkjasdlkf
+lskdjflksadjfljsadlfjsa
+alskdjflasjdfkl
+asdjfhaskl
+laskdjflsajdf
+laksdjflksa
+laskdjfklsakfjskdlfas
+lasdhflsahdflkasdlkfjasd
+lasdjf
+salkdjflsdjflas
+laskdjfsadjfh
+lsldkjf
+lasdfjlksdfhlas
+laksdjflsajdlfkjaslkdfjlksadjflksalfjdasjdflasjdlfjsaldfjsdf
+je ne sais pass comment te dire
+jour et pour de tout foutre au lere 
+de tu detruit 
+on ta didest a metre o clere
+despuis longtomps mea je tojour 
+leasse derriere mes sentiments
+"""
+
+
 
 class fondo(pygame.sprite.Sprite):
     def __init__(self):
